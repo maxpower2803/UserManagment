@@ -72,3 +72,6 @@ UserService - Servicio para la gestión de usuarios.
   
   - password.regex: Expresión regular para validar contraseñas.
   - email.regex: Expresión regular para validar correos electrónicos.
+### Api Swagger 
+
+  - para revisar la documentacion de api-swagger debe abrir el navegador en el mismo computador e ingresar el link "http://localhost:8080/swagger-ui/index.html" en caso que este utilizando otro equipo debe reemplazar localhost por la ip del servidor donde se encuentra el servicio.
