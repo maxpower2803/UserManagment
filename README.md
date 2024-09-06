@@ -4,6 +4,8 @@ Esta API proporciona funcionalidades para el registro de usuarios, validación d
 
 ## Estructura del Proyecto
 
+### Script de base de datos
+-En la raiz del proyecto existe una carpeta llamada sql el cual contiene el archivo sql para recrear la base de datos.
 ### Paquetes
 
 - com.app.usermanagement.api.controller: Contiene los controladores de la API.
@@ -20,7 +22,7 @@ UserController - Controlador REST para la gestión de usuarios.
   
   Registra un nuevo usuario.
   
-  Request:
+  ## Request:
   ```json
   {
     "name": "John Doe",
@@ -32,7 +34,7 @@ UserController - Controlador REST para la gestión de usuarios.
   }
   ```
 
-  Response Exitoso:
+  ## Response Exitoso:
   ```json
   {
     "id": "uuid",
@@ -72,6 +74,7 @@ UserService - Servicio para la gestión de usuarios.
   
   - password.regex: Expresión regular para validar contraseñas.
   - email.regex: Expresión regular para validar correos electrónicos.
+  
 ### Api Swagger 
 
   - para revisar la documentacion de api-swagger debe abrir el navegador en el mismo computador e ingresar el link "http://localhost:8080/swagger-ui/index.html" en caso que este utilizando otro equipo debe reemplazar localhost por la ip del servidor donde se encuentra el servicio.
