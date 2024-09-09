@@ -5,7 +5,7 @@ Esta API proporciona funcionalidades para el registro de usuarios, validación d
 ## Estructura del Proyecto
 
 ### Script de base de datos
--En la raiz del proyecto existe una carpeta llamada sql el cual contiene el archivo sql para recrear la base de datos.
+- En la raiz del proyecto existe una carpeta llamada sql el cual contiene el archivo sql para recrear la base de datos.
 ### Paquetes
 
 - com.app.usermanagement.api.controller: Contiene los controladores de la API.
